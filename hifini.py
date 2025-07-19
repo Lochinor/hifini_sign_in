@@ -183,7 +183,7 @@ def perform_sign(sign, cookie):
 
 def send(title, content):
     print(title, content)
-    # QLAPI.notify(title, content)
+    QLAPI.notify(title, content)
 
 
 if __name__ == "__main__":
